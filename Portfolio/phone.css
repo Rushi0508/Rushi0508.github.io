@@ -1,0 +1,200 @@
+@media screen and (max-width:950px) {
+    #container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    #details{
+        width: 100%;
+    }
+    #social-icons{
+        position: relative;
+    }
+    .navbar{
+        height: 100vh;
+        flex-direction: column;
+        transition: all 0.5s ease-out;
+        opacity: 0.9;
+    }
+    .navbar ul{
+        display: flex;
+        flex-direction: column;
+        position: static;
+        text-align: center;
+        margin: 10px 0px;
+    }
+    .navbar ul li{
+        margin: 6px 0px;
+    }
+    .navbar div h2{
+        position: static;
+        font-size: 30px;
+    }
+    .burger{
+        position: absolute;
+        cursor: pointer;
+        right: 2%;
+        top: 12px;
+    }
+    .line{
+        width: 40px;
+        background-color: white;
+        height: 7px;
+        margin: 4px 0px;
+        border-radius: 10px;
+    }
+    .h-nav{
+        /* transition: all 0.5s ease-out; */
+        height: 70px;
+        /* opacity: 0.9; */
+    }
+    .title{
+        margin-top: 5%;
+    }
+    .v-class{
+        display: none !important;
+    }
+    #skills{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    .projects-wrapper{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-right: 0px;
+    }
+    #about-text{
+        text-align: center;
+    }
+}
+@media screen and (max-width:420px) {
+    .navbar ul{
+        position: absolute;
+        top: 25vh;
+    }
+    .navbar ul li {
+        margin: 20px 0px;
+    }
+    .navbar ul a {
+        font-size: 1.8rem;
+    }
+    button{
+        margin-inline: 0px;
+        border-radius: 30px;
+        margin-top: 20px;
+        font-size: 1.5rem;
+    }
+    .navbar a img{
+        position: absolute;
+        left: 4%;
+        top: 0%;
+        width: 70px;
+        height: 70px;
+        margin-left: 0;
+    }
+    .hi p{
+        font-size: 2rem;
+    }
+    .name p{
+        font-size: 4rem;
+    }
+    .static{
+        font-size: 2rem;
+    }
+    .dynamic li{
+        font-size: 3rem;
+        font-family: 'Source Code Pro', monospace;
+        color: rgb(245, 152, 30);
+    }
+    #logo{
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
+    }
+    #logo img{
+        margin-left: 0;
+    }
+    #container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+    }
+    #social-icons{
+        position: relative;
+        right: 0;
+        background-color: black;
+    }
+    #social-icons ul{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+    }
+    #about-img{
+        display: none;
+    }
+    #skills{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .projects-wrapper{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-right: 0px;
+    }
+    #about-text{
+        text-align: center;
+    }
+    #skills {
+        width: 80%;
+        margin: auto;
+        /* margin-left: 10%; */
+    }    
+    #project-img img {
+        width: 75vmin;
+        border: 20px solid rgb(70, 70, 70);
+        border-radius: 20px;
+        margin-left: 0px;
+    }
+    #project-text h1{
+        margin-left: 0px;
+        font-size: 1.8rem;
+    }
+    #project-text p{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #prohr, #exphr,#text-hr,#exp,#pro{
+        margin:auto;
+    }
+    .exp-items{
+        margin: auto;
+    }
+    .p-item{
+        color: white;
+        font-size: 1.3rem;
+        margin-left: 12%;
+    }
+    .exp1-1{
+        font-size: 1.8rem;
+        margin-left: 11.5%;
+    }
+    .exp1{
+        font-size: 1.8rem;
+    }
+    #details{
+        margin: auto;
+        text-align: center;
+    }
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .exp-container{
+        text-align: center;
+        margin: auto;
+    }
+    .exp1, .exp1-1, .p-item{
+        margin-left: 0px;
+    }
+}
